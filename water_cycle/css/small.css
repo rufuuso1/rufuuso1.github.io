@@ -15,7 +15,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: #3d5af1;
 }
 header img{
     float: left;
@@ -27,7 +27,7 @@ header h2 {margin: 0; font-weight: normal; font-size: 1rem;}
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: #22d1ee;
 }
 nav ul {
     list-style-type: none;
@@ -37,7 +37,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #eee;
+    color:#0e153a;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -46,11 +46,11 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #aaa;
+    background-color:#e2f3f5;
     color: #333;
 }
 nav ul li.active a {
-    background-color: #000;
+    background-color: #3d5af1;
     color: #fff;
 }
 /*----------- MAIN --------------*/
@@ -62,9 +62,10 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color:#22d1ee;
     padding: .5rem 2%;
     text-align: center;
+    color:#0e153a;
 }
 
 
