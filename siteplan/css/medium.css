@@ -1,0 +1,10 @@
+@media only screen and (min-width: 35rem) {
+
+    header img{ width: auto;}
+    header h1{ font-size: 2rem;}
+    nav ul {margin-left: 2%;}
+    nav ul li {display: inline-block;}
+
+    nav ul li a{padding: .5rem 1rem;}
+
+}

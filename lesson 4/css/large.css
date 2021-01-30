@@ -1,0 +1,104 @@
+@media only screen and (min-width: 64rem) {
+header{width: 100%; display: block;}
+header img{width: 8vw; float: left; margin-left:15vw;margin-right: 5vw;}
+main{
+    padding-left:15vw ;
+    padding-right:15vw
+}
+
+h2{margin-bottom: 0px;}
+.heroDiv{
+    position: relative;
+}
+.hero{
+    height: 30vw;
+
+}
+h3{
+    border-bottom: solid black 1px;
+}
+.weatherSummary{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.menu-btn {
+    visibility: hidden;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+  .menu-btn__burger {
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+  .menu-btn::before {
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+  .menu-btn::after {
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+  .nav {
+    visibility: visible;
+    z-index: 1;
+    position: inherit;
+    
+  }
+  .nav .menu-nav {
+    display: block;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    height: 100%;
+    text-align: center;
+    background: #0d3446;
+    margin-top: 0;
+    padding:0;
+    width: 100vw;
+    
+  }
+  .nav .menu-nav__item {
+    display: inline;
+    padding: auto;
+  }
+  .nav .menu-nav__item .menu-nav__link{
+      padding:  0.5rem 1.2rem;
+  }
+  .weatherSummary{
+    max-width: 400px;
+    text-align: center;
+    border: solid black 1px;
+    padding: 0;
+}
+footer{
+   width: 100%;
+   display: block;
+
+}
+.finish{
+    width: 100vw;
+}
+footer div{display: inline-block;}
+footer img{width: 20vw; float: left; margin-left:15vw;
+
+}
+
+
+
+.social-media {
+   visibility:visible;
+    bottom: 0.5vh;
+  }
+  
+  .social-media a {
+    margin: .5rem;
+  }
+  
+  .social-media .p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
