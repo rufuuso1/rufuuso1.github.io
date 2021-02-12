@@ -37,7 +37,7 @@ doby{font-family: 'Lato', sans-serif;}
         justify-content: center;
         height: 100vh;
         overflow: hidden;
-        background: blue;
+        background: #0d3446;
         list-style-type: none;
         padding-right: 1rem;
         top: 0;
@@ -59,8 +59,9 @@ doby{font-family: 'Lato', sans-serif;}
 }
 
 .nav .menu-nav__item.active > a {
-  color: #7393a7;
-  
+  color: black;
+  background: #7393a7;
+
 }
 
 .nav .menu-nav__link {
@@ -72,7 +73,9 @@ doby{font-family: 'Lato', sans-serif;}
 }
 
 .nav .menu-nav__link:hover {
-  color: #7393a7;
+  /*color: #7393a7;*/
+  color: black;
+  background: #7393a7;
 }
 
 .nav a {
@@ -98,7 +101,7 @@ doby{font-family: 'Lato', sans-serif;}
   height: 3px;
   background-color: #0d3446;
   transition: all 0.5s ease-in-out;
-  z-index:3;
+  z-index:10;
 }
 
 .menu-btn__burger::before {
@@ -186,7 +189,7 @@ doby{font-family: 'Lato', sans-serif;}
       height: 20px;
       position: absolute;
       background: #fff;
-      z-index: 2;
+      z-index: 0;
     }
     .placeholder-content_item:after,
     .placeholder-content_item:before {
@@ -286,13 +289,6 @@ doby{font-family: 'Lato', sans-serif;}
 h2, h3{
   padding-left: 2vw ;
 }
-
-
-
-
-
-
-
 footer{
 
   background-color:#71adb5;

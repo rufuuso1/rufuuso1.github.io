@@ -74,7 +74,8 @@ doby{font-family: 'Lato', sans-serif;}
 }
 
 .nav .menu-nav__item.active > a {
-  color: #7393a7;
+  color: black;
+  background: #7393a7;
   
 }
 
@@ -87,7 +88,8 @@ doby{font-family: 'Lato', sans-serif;}
 }
 
 .nav .menu-nav__link:hover {
-  color: #7393a7;
+  color: black;
+  background: #7393a7;
 }
 
 .nav a {
@@ -179,7 +181,9 @@ doby{font-family: 'Lato', sans-serif;}
 /*ends nav bar burger*/
 
 /*placeholder*/
-
+.placeholder-content img{
+  max-width: 900px;
+}
 .placeholder-content {
   height: 205px;
   overflow: hidden;
@@ -267,4 +271,20 @@ footer img{max-width: 85vw; padding: .5rem 7vw;}
 }
 .social-media{
   visibility: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.social-media img{
+  padding-left: 0;
+  margin: 0;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+.contact img{
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  padding: 0;
 }

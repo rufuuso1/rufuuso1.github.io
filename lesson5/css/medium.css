@@ -58,7 +58,15 @@ h3{
   .nav .menu-nav__item .menu-nav__link{
       padding:  0.5rem 1rem;
   }
+  .hero {
 
+    overflow: hidden;
+    
+  }
+  .heroDiv img{
+    width: 100%;
+    
+  }
   .heroDiv{
     position: relative;
   }

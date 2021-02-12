@@ -1,0 +1,106 @@
+@media only screen and (min-width: 64rem) {
+header{ width: 98.5%; display: block;}
+header img{width: 8vw; float: left; margin-left:15vw;margin-right: 5vw;}
+main{
+    padding-left:15vw ;
+    padding-right:15vw
+}
+
+h2{margin-bottom: 0px;}
+.heroDiv{
+    position: relative;
+}
+.hero{
+    height: 30vw;
+
+}
+h3{
+    border-bottom: solid black 1px;
+}
+
+.menu-btn {
+  visibility: hidden;
+          transition-duration: 0s;
+}
+.menu-btn__burger {
+          transition-duration: 0s;
+}
+.menu-btn::before {
+          transition-duration: 0s;
+}
+.menu-btn::after {
+          transition-duration: 0s;
+}
+.nav {
+  visibility: visible;
+  z-index: 1;
+  position: inherit;
+  
+}
+.nav .menu-nav {
+  display: block;
+  transform: translateY(0);
+  height: 100%;
+  text-align: center;
+  background: #0d3446;
+  margin-top: 0;
+  padding:0;
+  width: 98.8vw;
+  
+}
+.nav .menu-nav__item {
+  display: inline;
+  
+}
+.nav .menu-nav__item .menu-nav__link{
+    padding:  0.5rem 1.2rem;
+}
+
+.fiveDay{
+  display: block;
+
+}
+.days{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.days div{
+  border: 1px solid black;
+  margin: 3px;
+}
+.days h5{
+  border-bottom: 1px solid black;
+  margin-top: 1rem;
+}
+
+
+
+footer{
+ 
+   display: block;
+
+}
+
+footer div{display: inline-block;}
+footer img{width: 20vw; float: left; margin-left:15vw;
+
+}
+
+
+
+.social-media {
+   visibility:visible;
+    bottom: 0.5vh;
+  }
+  
+  .social-media a {
+    margin: .5rem;
+  }
+  
+  .social-media .p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
