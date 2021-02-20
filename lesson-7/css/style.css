@@ -1,0 +1,27 @@
+main{
+    max-width: 400px;
+margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+
+img{
+    border: 1px solid #414b5f;
+    padding: 3px;
+    filter: blur(0em);
+    transition: filter 2s;
+    width: 100%;
+}
+img[data-src]{
+    filter:blur(0.3em)
+}
+figure{
+    width: 90%;
+}
