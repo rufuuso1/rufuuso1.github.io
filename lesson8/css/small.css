@@ -400,3 +400,13 @@ input[type="email"]{
 label{
   font-size: .9rem;
 }
+.thankscontainer{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 25px;
+  padding: 2rem;
+  border-color: #0e153a ;
+  box-shadow: inset 0px 0px 25px #0e153a;
+}
