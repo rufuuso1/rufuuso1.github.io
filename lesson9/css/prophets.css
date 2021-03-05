@@ -1,0 +1,36 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+section{
+    background-color: #B9B9CC;
+    border: #A2A2C0 solid 1px;
+    text-align: center;
+    margin: 2%;
+    padding: 3%;
+}
+img{
+    width: 70%;
+}
+h2, h1{
+    color:#6161A0;
+    text-align: center;
+    font-family: ;
+}
+main{
+    background-color: #DDDDDD;
+    box-shadow: 0 0 30px gray;
+}
+
+@media only screen and (max-width: 64rem) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
