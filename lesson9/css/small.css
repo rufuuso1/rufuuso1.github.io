@@ -410,3 +410,33 @@ label{
   border-color: #0e153a ;
   box-shadow: inset 0px 0px 25px #0e153a;
 }
+
+
+
+
+section{
+  display: flex;
+  text-align: center;
+  margin: 2%;
+  padding: 3%;
+  flex-direction: row;
+  
+  background-color: #e8ecf1;
+  box-shadow: 0 0  10px #0e153a;
+}
+section img{
+  width: 50%;
+  margin: auto;
+}
+.heroDiv h2{
+  position: absolute;
+  color: blanchedalmond;
+  font-size: 1.5em;
+ 
+}
+.heroDiv h3{
+  position: absolute;
+  color: blanchedalmond;
+  left: 100px;
+  top: 250px;
+}
