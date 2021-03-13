@@ -415,9 +415,10 @@ label{
 
 
 section{
-  display: flex;
+  display: block;
+  width: 60%;
   text-align: center;
-  margin: 2%;
+  margin:2% 15% 2% 15%;
   padding: 3%;
   flex-direction: row;
   

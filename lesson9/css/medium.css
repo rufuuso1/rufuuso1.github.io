@@ -138,19 +138,17 @@ footer img{width: 20vw; float: left; margin-left:15vw;
     display: flex;
   }
   .towns{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    display: block;
   }
   section{
-    display: block;
-    text-align: left;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   section img{
     width: 100%;
-    float:left;
   }
-
+  .towns :nth-child(odd) img{grid-column: 1; grid-row: 1;}
+  .towns:nth-child(odd) section {grid-column: 2;}
 
 
 

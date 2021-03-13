@@ -51,7 +51,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
    
     const towns = jsonObject['towns'];
-    for (let i = 0; i < towns.length; i++ ) {
+    for (let i = 0; i < 3; i++ ) {
         let card = document.createElement('section');
         
 let h2 = document.createElement('h2');

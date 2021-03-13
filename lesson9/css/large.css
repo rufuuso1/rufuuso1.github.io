@@ -103,4 +103,19 @@ footer img{width: 20vw; float: left; margin-left:15vw;
     display: -ms-flexbox;
     display: flex;
   }
+  .towns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+  section{
+    display: block;
+    text-align: left;
+    
+  }
+  section img{
+    width: 100%;
+    float:left;
+  }
+
 }
+
