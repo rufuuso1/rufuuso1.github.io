@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Weather Event</title>
+</head>
+
+<body>
+    <div id="saturday">
+        <h2>Saturday</h2>
+        <p> Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+    </div>
+    <header>
+        <div class="header">
+            <img src="img/logo.png" alt="logo">
+            <div>
+                <h1>Wheather Event</h1>
+                <h2>Plan your Event with knoledge</h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+    </div>
+    <nav class="nav">
+        <ul class="menu-nav">
+            <li class="menu-nav__item">
+                <a href="index.html" class="menu-nav__link">Home</a>
+            </li>
+            <li class="menu-nav__item ">
+                <a href="preston.html" class="menu-nav__link">Preston</a>
+            </li>
+            <li class="menu-nav__item">
+                <a href="sodaspring.html" class="menu-nav__link">Soda Spring</a>
+            </li>
+            <li class="menu-nav__item">
+                <a href="fishhaven.html" class="menu-nav__link">Fish Haven</a>
+            </li>
+            <li class="menu-nav__item active">
+                <a href="stormcenter.html" class="menu-nav__link">Storm Center</a>
+            </li>
+            <li class="menu-nav__item">
+                <a href="gallery-7.html" class="menu-nav__link">Gallery</a>
+            </li>
+        </ul>
+
+    </nav>
+    <main>
+
+        <form action="thanks.html" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>Enter your full name:<br><input type="text" name="fullname" id="FName" placeholder="Jhon Doe" required>
+                </label><br>
+                <br>
+                <label>Enter your email: <br> <input type="email" name="email" id="email"
+                        placeholder="xxxxxx@aaaa.com"></label><br>
+                <br>
+                <label>Enter your phone number:<br> <input type="tel" name="number" id="tel" required
+                        placeholder="###-###-####"></label><br>
+                <br>
+                <label>Enter your zip code:<br> <input type="number" name="zip" id="zip" placeholder="#####"
+                        required></label><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label>Storm date:<br><input type="date" name="date" id="date"> </label><br>
+                <br>
+                <label>Storm type:<br> <input list="type" name="type" id="Stype" placeholder="Select one">
+                </label><datalist id="type">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist><br>
+
+                <br>
+
+                <label>Storm severity:<br><input type="range" name="severity" id="severity" min="0"
+                        max="10"> </label><br>
+                <br>
+                
+                <label>Sotorm region:<br> </label>
+                    <label for="Preston"><input type="radio" name="danger" id="Preston" value="Preston"> Preston</label><br>
+                    <label for="Springs"><input type="radio" name="danger" id="Springs" value="Soda Springs"> Soda Springs</label><br>
+                    <label for="Haven"><input type="radio" name="danger" id="Haven" value="Fish Haven"> Fish Haven</label><br>
+                <br><br>
+                <label>User in-danger level:<br> </label>
+                    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> yes</label><br>
+                    <label for="Maybe"><input type="radio" name="danger" id="Maybe" value="Maybe"> Maybe</label><br>
+                    <label for="No"><input type="radio" name="danger" id="No" value="No"> No</label><br>
+                
+
+            </fieldset>
+            <fieldset>
+                <legend>More Details?</legend>
+
+                <label for="comments">Additional information or comments: </label><br>
+                <textarea  name="comments" id="comments" 
+                rows="7" ></textarea><br>
+
+            </fieldset>
+            <input type="submit" value="Send my report">
+        </form>
+    </main>
+    <footer class="footer">
+        <div>
+            <div class="contact">
+                <h2>contact information </h2>
+                <p><img class="contact" src="img/phone.png" alt="phone"> Lorem, ipsum dolor.</p>
+                <p>
+                    <img class="contact" src="img/mail.png" alt="mail"> Lorem, ipsum dolor.
+                </p>
+            </div>
+
+            <div class="social-media -p">
+                <a href="https://www.facebook.com/nicolas.r.ortega.7">
+                    <img src="img/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/ortega_nicolas/">
+                    <img src="img/inta.png" alt="instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/nicolas-rufino-ortega/">
+                    <img src="img/linked.png" alt="linkedin">
+                </a>
+            </div>
+
+        </div>
+        <img src="img/map.jpg" alt="map">
+
+        <div class="finish">
+            <p>
+                © 2021 - Nicolas Ortega - Argentina - <a class="BYU" href="https://www.byui.edu/online" target="_blank">
+                    BYU-Idaho Online Learning</a> </p>
+            <div id="updated" style="background-color: #0e153a; color: #71adb5; text-align: center;"></div>
+        </div>
+    </footer>
+    <script src="js/toggle.js"></script>
+    <script src="js/js.js"></script>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/font.js"></script>
+</body>
+
+</html>
