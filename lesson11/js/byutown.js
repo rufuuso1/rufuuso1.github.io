@@ -11,7 +11,6 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
     for (let i = 0; i <= 6 ; i++ ) {
         if (i==0 || i==6 || i==2) {
-            
 
             let card = document.createElement('section');
             

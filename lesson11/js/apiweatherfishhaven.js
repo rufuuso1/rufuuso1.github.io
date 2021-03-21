@@ -47,3 +47,36 @@ for (i = 0; i < jsObject.list.length; i++) {
         document.querySelector('div.days').appendChild(card);
             }
 }});        
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+
+fetch(requestURL)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+
+  const towns = jsonObject['towns'];
+  for (let i = 0; i <= 6 ; i++ ) {
+      if (i==2) {
+          console.log(jsonObject)
+
+          let cards = document.createElement('section');
+          let title = document.createElement('h2');
+          let p1 = document.createElement('p');
+          let p2 = document.createElement('p');
+          let p3 = document.createElement('p');
+          
+          title.textContent="EVENTS"
+          p1.textContent = towns[i].events[0];
+          p2.textContent =towns[i].events[1];
+          p3.textContent =towns[i].events[2];
+          cards.appendChild(title)
+          cards.appendChild(p1);
+          cards.appendChild(p2);
+          cards.appendChild(p3);
+
+          document.querySelector('div.events').appendChild(cards);
+      }}
+     
+});

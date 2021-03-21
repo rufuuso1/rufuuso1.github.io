@@ -73,34 +73,11 @@ h3{
   border-bottom: 1px solid black;
   margin-top: 1rem;
 }
-
-
-
-footer{
- 
-   display: block;
-
+.towns{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
 }
-
-footer div{display: inline-block;}
-footer img{width: 20vw; float: left; margin-left:15vw;
-
+section{
+  display: block;
 }
-
-
-
-.social-media {
-   visibility:visible;
-    bottom: 0.5vh;
-  }
-  
-  .social-media a {
-    margin: .5rem;
-  }
-  
-  .social-media .p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
 }

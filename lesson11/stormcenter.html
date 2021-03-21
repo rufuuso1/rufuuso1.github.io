@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
     <title>Weather Event</title>
 </head>
 
@@ -23,7 +22,7 @@
         <div class="header">
             <img src="img/logo.png" alt="logo">
             <div>
-                <h1>Wheather Event</h1>
+                <h1>Weather Event</h1>
                 <h2>Plan your Event with knoledge</h2>
             </div>
         </div>
@@ -60,7 +59,7 @@
         <form action="thanks.html" method="get">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label>Enter your full name:<br><input type="text" name="fullname" id="FName" placeholder="Jhon Doe" required>
+                <label>Enter your full name:<br><input type="text" name="fullname" id="FName" placeholder="John Doe" required>
                 </label><br>
                 <br>
                 <label>Enter your email: <br> <input type="email" name="email" id="email"
@@ -89,7 +88,8 @@
                 <br>
 
                 <label>Storm severity:<br><input type="range" name="severity" id="severity" min="0"
-                        max="10"> </label><br>
+                        max="10" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue">5</span> </label><br>
+                        
                 <br>
                 
                 <label>Sotorm region:<br> </label>
@@ -98,7 +98,7 @@
                     <label for="Haven"><input type="radio" name="danger" id="Haven" value="Fish Haven"> Fish Haven</label><br>
                 <br><br>
                 <label>User in-danger level:<br> </label>
-                    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> yes</label><br>
+                    <label for="yes"><input type="radio" name="danger" id="yes" value="yes"> Yes</label><br>
                     <label for="Maybe"><input type="radio" name="danger" id="Maybe" value="Maybe"> Maybe</label><br>
                     <label for="No"><input type="radio" name="danger" id="No" value="No"> No</label><br>
                 
@@ -116,7 +116,7 @@
         </form>
     </main>
     <footer class="footer">
-        <div>
+        <div class="contact">
             <div class="contact">
                 <h2>contact information </h2>
                 <p><img class="contact" src="img/phone.png" alt="phone"> Lorem, ipsum dolor.</p>

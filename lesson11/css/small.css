@@ -230,7 +230,7 @@ footer{
   text-align: left;
   color:#0e153a;
 }
-footer div{padding: .5rem 7vw;}
+footer div .contact{padding: .5rem 7vw;}
 footer img{max-width: 85vw; padding: .5rem 7vw;}
 .finish{
   margin: 0;
@@ -272,10 +272,11 @@ footer img{max-width: 85vw; padding: .5rem 7vw;}
   width: 30px;
 }
 .contact img{
-  height: 15px;
-  width: 15px;
+  height: 25px;
+  width: 25px;
   margin: 0;
   padding: 0;
+  margin-top: 30px;
 }
 .generalCont{
   margin-top: 3%;
@@ -337,40 +338,40 @@ input:focus{
   outline: none;
 }
 input[type="text"]{
- height: 44px;
+ height: 33px;
   width: 60%;
-  margin-bottom: 1rem;
+  margin-bottom: .6rem;
 
 }
 input[type="email"]{
-  height: 44px;
+  height: 33px;
    width: 60%;
-  margin-bottom: 1rem;
+  margin-bottom: .6rem;
  }
  input[type="tel"]{
-  height: 44px;
+  height: 33px;
    width: 60%;
-   margin-bottom: 1rem;
+   margin-bottom: .6rem;
  }
  input[type="number"]{
-  height: 44px;
+  height: 33px;
    width: 60%;
-   margin-bottom: 1rem;
+   margin-bottom: .6rem;
  }
  input[type="date"]{
-  height: 44px;
+  height: 33px;
    width: 60%;
-   margin-bottom: 1rem;
+   margin-bottom: .6rem;
  }
  input[list="type"]{
-  height: 44px;
+  height: 33px;
    width: 60%;
-   margin-bottom: 1rem;
+   margin-bottom: .6rem;
  }
  input[ type="range"]{
-  height: 44px;
+  height: 33px;
    width: 60%;
-   margin-bottom: 1rem;
+   margin-bottom: .6rem;
  }
  input[ type="radio"]{
   
@@ -378,7 +379,7 @@ input[type="email"]{
  }
 
  input[type="submit"]{
-  height: 44px;
+  height: 30px;
    width: 60%;
    border-bottom: none;
    border-radius: 25px;
@@ -413,7 +414,7 @@ label{
 
 
 section{
-  display: flex;
+  display: block;
   text-align: center;
   margin: 2%;
   padding: 3%;
@@ -430,14 +431,32 @@ section img{
   position: absolute;
   color: blanchedalmond;
   font-size: 1.5em;
- 
+  background-color: rgba(18, 58, 74, 0.1);
+
 }
 .heroDiv .indexH3{
   position: absolute;
   color: blanchedalmond;
   left: 100px;
   top: 250px;
+  background-color: rgba(18, 58, 74, 0.1);
+
 }
 .days img{
   width: 70%;
 }
+.events{
+  text-align: center;
+}
+.events section{
+  border-radius: 7px;
+  display: block;
+  width: 60%;
+  margin:5% 15% ;
+}
+.events section h2{padding: 0;margin: 0;}
+.events p{
+  font-size: .9rem;
+}
+
+

@@ -18,7 +18,7 @@ var lastModified = document.lastModified;
 document.getElementById("updated").innerHTML = "Last Updated : " + lastModified;
 
 
-//jquery
-
-
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+  }
 
