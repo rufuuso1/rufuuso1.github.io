@@ -1,0 +1,58 @@
+@media only screen and (min-width: 80rem) {
+
+
+    .menu-btn {
+        visibility: hidden;
+        -webkit-transition-duration: 0s;
+                transition-duration: 0s;
+      }
+      .menu-btn__burger {
+        -webkit-transition-duration: 0s;
+                transition-duration: 0s;
+      }
+      .menu-btn::before {
+        -webkit-transition-duration: 0s;
+                transition-duration: 0s;
+      }
+      .menu-btn::after {
+        -webkit-transition-duration: 0s;
+                transition-duration: 0s;
+      }
+      .nav {
+        visibility: visible;
+        z-index: 1;
+        position: inherit;
+        display: inline-block;
+        top:0;
+        
+        
+      }
+      .nav .menu-nav {
+        
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        height: 100%;
+        text-align: center;
+        
+        margin: 0;
+        padding:0;
+        background-color: transparent;
+        padding: 50px 0 0 40%;
+        
+        
+      }
+      .nav .menu-nav__item {
+        display: inline;
+        
+    
+      }
+      .nav .menu-nav__item .menu-nav__link{
+          padding:  0.5rem 1rem;
+      }
+     ul.menu-nav{
+         padding:0;
+     }
+    
+
+
+}

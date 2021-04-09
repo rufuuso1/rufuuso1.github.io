@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>C-C Caseros</title>
+</head>
+
+<body>
+    <header>
+
+        <img src="img/logo.png" alt="logo">
+        <div class="text">
+            <h1>Caseros Chamber of Commerce</h1>
+
+        </div>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+        </div>
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav__item">
+                    <a href="index.html" class="menu-nav__link">Home</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="caseros.html" class="menu-nav__link">Caseros</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="directory.html" class="menu-nav__link">Directory</a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="contact.html" class="menu-nav__link">Contact</a>
+                </li>
+                <li class="menu-nav__item active">
+                    <a href="join.html" class="menu-nav__link">Join</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <div class="presenting">
+            <h1>
+                Our Directory
+            </h1>
+        </div>
+        <div class="hero">
+
+            <div class="heroimg"><img src="img/work.jpg" alt="pictureFromSky">
+              
+            </div>
+
+            <div class="join-cont">
+                <form>
+                
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" pattern="[A-Za-z ]{2,}"
+                                required></label><br>
+                        <label class="top">Last Name* <input type="text" name="lname" pattern="[A-Za-z ]{2,}"
+                                required></label><br>
+                        <label class="top">Title <input type="text" name="title" pattern="[A-Za-z ]{2,}" required></label>
+                        <br>
+                        <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                        <br>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                                required></label>
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend>Business Information</legend>
+                        <label class="top">Business Name* <input type="text" name="busname" pattern="[A-Za-z ]{2,}"
+                                required></label><br>
+                        <label class="top">Business Address <input type="text" name="busaddress"
+                                pattern="[A-Za-z ]{2,}"></label><br>
+                        <label class="top">Business Website <input type="text" name="title" pattern="[A-Za-z ]{2,}"
+                                placeholder="www.mybusiness.com"></label><br>
+                        <label class="top">Business Description
+                            <textarea name="businessInfo" placeholder="Describe your business here..." rows="8"></textarea>
+                        </label>
+                    </fieldset>
+                
+                    <fieldset>
+                        <legend>Membership Level</legend>
+                        <div class="top">Choose your Membership Level</div>
+                        <label class="sbs"><input type="radio" name="membershipLevel" required value="nonProfit"> Non-profit
+                            ($100)</label><br>
+                        <label class="sbs"><input type="radio" name="membershipLeve2" required value="bronze"> Bronze
+                            ($200)</label><br>
+                        <label class="sbs"><input type="radio" name="membershipLeve3" required value="silver"> Silver
+                            ($400)</label><br>
+                        <label class="sbs"><input type="radio" name="membershipLeve4" required value="gold"> Gold
+                            ($1000)</label>
+                    </fieldset>
+                    
+                    <input class="submitBtn" type="submit" value="Join the Hub">
+                </form>
+                <img class="im1" src="img/personal.jpg" alt="person">
+                <img class="im2" src="img/bussines.jpg" alt="">
+                <div class="explanations">
+                    <h2>Membership Explanation</h2>
+                    <p>Non-profit = $100</p>
+<p>
+    Access to business trainings and monthly emails
+    Bronze = $200
+</p>
+<p>
+    All of the above, directory listings, luncheon tickets
+    Silver = $400
+</p>
+<p>
+    All of the above, and social media posts
+    Gold = $1000
+
+All of the above, and sponsors with levels of advertising</p>
+                </div>
+            </div>
+    </main>
+    <footer>
+
+        <div class="info">
+
+            <h2>contact information </h2>
+            <img class="contact" src="img/phone.png" alt="phone">
+            <p> (+54) 11 - 3641-5306</p>
+            <img class="mail" src="img/mail.png" alt="mail">
+            <p>
+                rufuuso@gmail.com
+            </p>
+
+
+
+            <a href="https://www.facebook.com/nicolas.r.ortega.7">
+                <img src="img/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/ortega_nicolas/">
+                <img src="img/inta.png" alt="instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/nicolas-rufino-ortega/">
+                <img src="img/linked.png" alt="linkedin">
+            </a>
+
+
+        </div>
+        <div class="finish">
+            <p>
+                © 2021 - Nicolas Ortega - Argentina - <a class="BYU" href="https://www.byui.edu/online" target="_blank">
+                    BYU-Idaho Online Learning</a> </p>
+
+        </div>
+
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

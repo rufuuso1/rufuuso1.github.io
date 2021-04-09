@@ -1,0 +1,60 @@
+{
+    "works": [
+      {
+        "name": "Lo de Carlitos",
+        "imageurl": "img/LOGO-20porciento.webp",
+        "birthdate": "Av. Justo José de Urquiza 4906.",
+        "link": "https://www.lodecarlitos.com/",
+        "birthplace": "(+54) 9 11 4759-2587"
+        
+      },
+      {
+        "name": "Empanadas de 10",
+        "imageurl": "img/logo-empanadas.png",
+        "birthdate": "3 de Febrero 3026",
+        "link": "https://www.empanadasde10.com/",
+        "birthplace": "(+54) 9 11 4750-6457"
+        
+      },
+      {
+        "name": "OMD!",
+        "imageurl": "img/logoultimo.png",
+        "birthdate": "Gral. Manuel Belgrano 4744.",
+        "link": "https://omdbuenosaires.com.ar/",
+        "birthplace": "(+54) 9 11 4192-2137"
+        
+      },
+      {
+        "name": "Pizzeria KM",
+        "imageurl": "img/LOGO_KM2.png",
+        "birthdate": "Andrés Ferreyra 2606.",
+        "link": "http://www.pizzeriakm.com.ar/",
+        "birthplace": "(+54) 9 11 4759-8480"
+        
+      },
+      {
+        "name": "Buffalos",
+        "imageurl": "img/buffalos.png",
+        "birthdate": "Bonifacini 4675.",
+        "link": "https://buffalos.masdelivery.com/",
+        "birthplace": "(+54) 9 11 4759-7730"
+        
+      },
+      {
+        "name": "Parrilla Esquinazo",
+        "imageurl": "img/LOGOe.png",
+        "birthdate": "Av. Justo José de Urquiza 4600.",
+        "link": "http://www.esquinazoparrilla.com.ar/",
+        "birthplace": "(+54) 9 11 4750-3937"
+        
+      },
+      {
+        "name": "Kentucky",
+        "imageurl": "img/logo-kentucky.png",
+        "birthdate": "Av. Justo José de Urquiza 4797.",
+        "link": "https://www.kentucky.com.ar/",
+        "birthplace": "(+54) 9 11 4641-0871"
+        
+      }
+    ]
+  }
